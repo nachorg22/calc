@@ -1,4 +1,3 @@
-
 <!DOCTYPE html><html><head>
 <title>Ejemplo</title><meta charset="utf-8">
 <script type="text/javascript">
@@ -9,9 +8,15 @@ function cuadrado() {
   var num = document.getElementById("n1");
   num.value = num.value * num.value;
 }
+<<<<<<< HEAD
 function cubo() {
   var num = document.getElementById("n1");
   num.value = num.value * num.value * num.value;
+=======
+function sqrt() {
+  var num = document.getElementById("n1");
+  num.value = Math.sqrt(num.value);
+>>>>>>> master
 }
 </script>
 </head>
@@ -20,7 +25,11 @@ function cubo() {
   <input type="text" id="n1" onclick="vaciar()"><p>
 
   <button onclick="cuadrado()"> x<sup>2</sup> </button>
+<<<<<<< HEAD
   <button onclick="cubo()"> x<sup>3</sup> </button>
 
+=======
+  <button onclick="sqrt()"> sqrt </button>
+>>>>>>> master
 </body>
 </html>
